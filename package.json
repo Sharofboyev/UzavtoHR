@@ -1,0 +1,52 @@
+{
+    "name": "telegram-support-bot",
+    "version": "0.20.1",
+    "description": "Telegram Support Bot",
+    "license": "GPL-3.0",
+    "author": "bostrot <me@bostrot.com>",
+    "homepage": "https://www.bostrot.com/d/6-telegram-support-bot",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/bostrot/telegram-support-bot.git"
+    },
+    "bugs": {
+        "url": "https://github.com/bostrot/telegram-support-bot/issues"
+    },
+    "main": "src/support.js",
+    "scripts": {
+        "start": "node src/support.js"
+    },
+    "engines": {
+        "node": ">=6.2.0"
+    },
+    "dependencies": {
+        "better-sqlite3": "^7.1.0",
+        "cron": "^1.8.2",
+        "debug": "^4.1.1",
+        "excel4node": "^1.7.2",
+        "node-fetch": "^2.6.0",
+        "nodemon": "^2.0.6",
+        "pg": "^8.4.2",
+        "sandwich-stream": "^2.0.2",
+        "telegraf": "^3.38.0",
+        "telegraf-session-sqlite": "^1.0.6"
+    },
+    "devDependencies": {
+        "eslint": "^7.3.0",
+        "eslint-config-google": "^0.14.0",
+        "eslint-plugin-import": "^2.21.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1"
+    },
+    "keywords": [
+        "telegram-support-bot",
+        "support",
+        "telegraf",
+        "telegram",
+        "telegram bot api",
+        "bot",
+        "botapi",
+        "bot framework"
+    ]
+}
