@@ -1,6 +1,6 @@
 module.exports = {
     // bot settings
-    bot_token: "1412621185:AAExhyIc2RHoMU0mKHbNegj6G9SZ544kmaM", // support bot token
+    bot_token: "", // support bot token
     staffchat_id: "-1001390665858", // eg. -123456789
     other_staff: {
         MAN: { id: "-428786147", child: {} },
